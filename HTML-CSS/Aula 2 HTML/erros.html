@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="erros.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Erros</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="title">Erros</h1>
+    </header>
+
+    <div class="topicos">
+        <hr>
+      <h2>1. Esquecer de fechar tags</h2>
+      <p>
+        A maioria das tags precisa de um par de fechamento. Se você esquecer, o navegador pode "quebrar" o layout da página inteira.
+      <hr>
+      <h2>2. IDs duplicados</h2>
+      <p>
+       O atributo id deve ser único na página inteira (como um CPF). Se você quer estilizar vários elementos iguais, use class.
+      </p>
+      <hr>
+      <h2>3. Aninhamento incorreto (Cruzamento de tags)</h2>
+      <p>
+        A regra é "O último a entrar é o primeiro a sair". Pense como caixas: você não pode fechar a caixa de fora antes de fechar a caixa de dentro.
+      </p>
+      <hr>
+      <h2>4. Colocar elementos de bloco dentro de elementos de linha (especialmente p)</h2>
+      <p>
+        Um erro clássico é colocar uma div dentro de um P. O navegador não aceita isso e automaticamente "expulsa" a div do parágrafo, causando erros visuais estranhos.
+      </>
+      <hr>
+      <h2>5. Esquecer o atributo alt em imagens</h2>
+      <p>
+        O atributo alt (texto alternativo) é obrigatório para acessibilidade (leitores de tela para cegos) e SEO (Google). Se a imagem quebrar, é esse texto que aparece.
+      </p>
+      <hr>
+      <h2>6. Usar estilos Inline (style="...")</h2>
+      <p>
+        Evite colocar CSS direto no HTML. Isso torna o código difícil de manter. Sempre prefira usar um arquivo .css separado ou uma tag style.
+      </p>
+      <hr>
+      <h2>7. Confundir src com href</h2>
+      <p>
+        É comum trocar as bolas.
+
+        <ul>
+            <li>
+                src (Source/Origem): Usado para incorporar algo na página (img, script, iframe). O navegador "baixa e mostra".
+            </li>
+            <li>
+                href (Hypertext Reference): Usado para apontar para outro lugar (a, link). O navegador "cria uma referência".
+            </li>
+        </ul>
+      </p>
+      <hr>
+      <h2>8. Esquecer o !DOCTYPE html</h2>
+      <p>
+      Essa deve ser a primeira linha do seu código. Sem ela, o navegador pode entrar em "Quirks Mode" (modo de compatibilidade) e renderizar sua página como se estivéssemos nos anos 90, quebrando seu CSS moderno.
+      </p>
+      <hr>
+      <h2>9. Formulários sem label</h2>
+      <p>
+      Todo (input) deve ter um rótulo associado. Isso é vital para saber o que digitar no campo e ajuda na acessibilidade.
+      </p>
+      <hr>
+      <h2>10. "Divite" (Excesso de DIVs)</h2>
+      <p>
+       Usar div para tudo. O HTML5 trouxe tags semânticas que explicam o que o conteúdo é. O Google adora tags semânticas.
+      </p>
+      <hr>
+      <p id="list">
+        1. Esquecer de fechar tags <br>
+        2. IDs duplicados <br>
+        3. Aninhamento incorreto <br>
+        4. Colocar elementos de bloco dentro de elementos de linha (especialmente p) <br>
+        5. Esquecer o atributo alt em imagens <br>
+        6. Usar estilos Inline (style="...") <br>
+        7. Confundir src com href <br>
+        8. Esquecer o DOCTYPE html <br>
+        9. Formulários sem label <br>
+        10. "Divite" (Excesso de DIVs) <br>
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+html {
+  font-family: "Google Sans", sans-serif;
+}
+
+.titulo {
+  background: linear-gradient(90deg, rgb(132, 1, 1), rgb(85, 158, 255));
+  color: white;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#textos {
+  padding: 10px;
+}

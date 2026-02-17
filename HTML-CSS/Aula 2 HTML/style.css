@@ -1,0 +1,88 @@
+header {
+  background-color: #808080;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #8a8989ea;
+  width: 195px;
+  color: white;
+}
+
+.titulo {
+  padding-left: 10px;
+}
+
+li {
+  padding-right: 5px;
+  text-align: left;
+}
+
+#ingles {
+  height: 50%;
+}
+
+.container {
+  background-color: #a7a5a5ea;
+  border-radius: 10px;
+}
+
+html {
+  font-family: "Google Sans", sans-serif;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.det {
+  background-color: rgb(40, 173, 40);
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#linkedin {
+  width: 70px;
+  height: 25px;
+  background-color: #1696ff;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+#filmes {
+  background-color: #3d3d3d;
+  width: 300px;
+  height: 100px;
+  text-align: start;
+}
+
+#lista {
+  background-color: #1f1f1f;
+}
+
+#artistas {
+  height: 50%;
+}
+
+.wanda {
+  border-radius: 20px;
+}

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style4-10.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="menu.svg" type="image/x-icon" />
+    <title>Formúlario</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulários</h1>
+    </header>
+    <main>
+      <section class="forms">
+        <div class="form2">
+          <form action="teste.html" method="post" id="cadastro">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" />
+
+            <label for="email">Digite seu email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+            />
+
+            <label for="senha">Senha:</label>
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="Digite sua senha:"
+            />
+            <button type="submit">CADASTRAR</button>
+          </form>
+
+          <form action="teste.html" method="post" id="form2">
+            <label for="nome">Data:</label>
+            <input type="date" id="data" />
+
+            <label for="file">Arquivo:</label>
+            <input type="file" name="file" id="file" />
+
+            <label for="checkbox"
+              >Aceito os termos: <input type="checkbox" name="check" id="check"
+            /></label>
+
+            <label for="radio"
+              >Masculino:
+              <input type="radio" name="radio" id="sexo" value="masculino"
+            /></label>
+
+            <label for="radio"
+              >Feminino:<input
+                type="radio"
+                name="radio"
+                id="sexo"
+                value="Feminino"
+            /></label>
+
+            <button type="submit">CADASTRAR</button>
+
+            <textarea
+              name="text"
+              id="text"
+              rowspan="4"
+              colspan="30"
+              maxlength="200"
+              placeholder="Escreva sua mensagem"
+            ></textarea>
+          </form>
+        </div>
+
+        <div class="audio">
+          <label for="taylor">You Need Calm Down - Taylor Swift</label>
+          <audio
+            src="Taylor Swift - You Need To Calm Down - Taylor Swift (youtube).mp3"
+            controls
+          ></audio>
+          <video
+            src="Taylor Swift - Opalite (Official Music Video) - Taylor Swift (2160p, av1, youtube).mp4"
+            controls
+            width="300"
+          ></video>
+
+          <iframe
+            width="400"
+            height="250"
+            src="https://www.youtube.com/embed/G_tq12WisX8?si=9DDWOIde-ARdrSZ1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+
+          <div class="nomes">
+            <form action="teste.html" method="post">
+              <label for="nome">POST:</label>
+              <input type="text" id="post" placeholder="Digite seu nome" />
+              <button type="submit">ENVIAR</button>
+            </form>
+
+            <form action="teste.html" method="get">
+              <label for="nome2">GET:</label>
+              <input type="text" id="get" placeholder="Digite seu nome" />
+              <button type="submit">ENVIAR</button>
+
+              <label for="musica">Escolha um gênero musical:</label>
+              <select name="music" id="music">
+                <option value="pop">Pop</option>
+                <option value="rock">Rock</option>
+                <option value="Romance">Romance</option>
+                <option value="rap">Rap</option>
+                <option value="hiphop">Hip Hop</option>
+                <option value="Sertanejo">Sertanejo</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
