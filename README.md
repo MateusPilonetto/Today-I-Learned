@@ -6,7 +6,7 @@ My personal knowledge base. Documenting everthing I learned about programming.
 
 > _"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence."_
 
-Welcome to my personal knowledge base! Here, I document my daily progress, exercises, and class notes as I transition from **Chemistry** to **Computer Science & Physics**.
+Welcome to my personal knowledge base! Here, I document my daily progress, exercises, and class notes as I transition from **Chemistry** to **Programming & Physics**.
 
 This repository is a **Digital Garden**: a collection of code snippets, algorithms, and small projects created during my courses and self-study sessions.
 
