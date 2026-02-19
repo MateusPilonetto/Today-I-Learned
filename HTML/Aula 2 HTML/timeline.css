@@ -1,0 +1,23 @@
+html {
+  font-family: "Alegreya", serif;
+}
+
+header {
+  background: linear-gradient(90deg, rgb(132, 1, 1), rgb(255, 56, 56));
+  color: white;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline {
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -1,0 +1,209 @@
+.cabecalho {
+  background-color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.nome {
+  color: white;
+}
+
+#contato {
+  width: 70px;
+  height: 25px;
+  background-color: #faa637;
+  text-decoration: none;
+  color: white;
+  box-shadow: 2px 2px 2px 1px #fab963;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: 1000;
+}
+
+html {
+  font-family: "Google Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 248, 220);
+}
+
+.apresentacao {
+  display: flex;
+}
+
+.buttons {
+  flex-direction: column;
+}
+
+.insta {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+
+#instagram {
+  width: 130px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  align-items: center;
+  background: linear-gradient(
+    45deg,
+    rgb(129, 52, 175),
+    rgb(81, 91, 212),
+    rgb(221, 42, 123)
+  );
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: 1000;
+  display: flex;
+  gap: 5px;
+  box-shadow: 2px 2px 2px 1px #d763fa;
+}
+
+#linkedin {
+  width: 130px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  align-items: center;
+  background-color: #0a66c2;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: 1000;
+  display: flex;
+  gap: 5px;
+  box-shadow: 2px 2px 2px 1px #2776c6;
+}
+
+.linkedin {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+
+#tiktok {
+  width: 130px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  align-items: center;
+  background-color: #030303;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: 1000;
+  display: flex;
+  gap: 5px;
+  box-shadow: 2px 2px 2px 1px #545454;
+}
+
+.tiktok {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+
+#whatsapp {
+  width: 130px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  align-items: center;
+  background-color: #25d366;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: 1000;
+  display: flex;
+  gap: 5px;
+  box-shadow: 2px 2px 2px 1px #6effa3;
+}
+
+.whatsapp {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.skills {
+  padding-left: 20px;
+}
+
+#descricao {
+  width: 500px;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+li {
+  font-size: 18px;
+}
+
+#topicos {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 150px;
+}
+
+.quimica {
+  width: 700px;
+  height: 250px;
+  size: 40%;
+  padding-top: 20px;
+}
+
+.fundo {
+  background-color: white;
+  width: 750px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+#chemistry {
+  margin-top: 2px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: white;
+}

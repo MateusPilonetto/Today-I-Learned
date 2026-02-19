@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(35deg, #020024 0%, #090979 35%, #34006b 100%);
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  color: #f8fafc;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 300px;
+  overflow: hidden;
+  font-size: 30px;
+  /* texto */
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+#titulo {
+  font-family: "Google Sans", sans-serif;
+  font-size: 70px;
+}
+
+#titulo2 {
+  color: rgb(0, 166, 255);
+  font-family: "Fira Code", monospace;
+}
+
+#titulo3 {
+  color: rgb(0, 166, 255);
+  font-family: "Fira Code", monospace;
+  font-size: 30px;
+}
+
+.titulos {
+  line-height: 0.6;
+}

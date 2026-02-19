@@ -1,0 +1,80 @@
+html {
+  font-family: "Google Sans", sans-serif;
+}
+
+h1 {
+  color: rgb(60, 80, 150);
+  /* Escolhi este azul escuro por ter melhor contrate com o branco e facilitar a leitura */
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 75vw;
+}
+
+#principal {
+  text-align: center;
+}
+
+p {
+  color: #6b963c;
+  font-family: "SN Pro", sans-serif;
+}
+
+.destaque {
+  color: hsl(0, 100%, 50%);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#texto1 {
+  font-weight: 800;
+  line-height: 2em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.texto2 {
+  line-height: 1em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.fundo {
+  background-color: #9a8e38;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.fundo2 {
+  background-color: #ffe839;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.fundo3 {
+  background-color: #fff982;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+#texto3 {
+  color: #303f41;
+}
+
+#texto4 {
+  color: #444217;
+}
+
+#texto5 {
+  color: #806b65;
+}

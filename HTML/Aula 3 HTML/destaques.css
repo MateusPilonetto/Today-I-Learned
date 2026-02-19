@@ -1,0 +1,85 @@
+main {
+  /* Fonte */
+  font-family: "SN Pro", sans-serif;
+  /*Alinhamento*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+figure {
+  align-items: center;
+  text-align: center;
+}
+#destaques {
+  width: 25%;
+  border-radius: 8px;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tommy {
+  width: 150px;
+  height: 150px;
+}
+
+header h1 {
+  /* Fonte */
+  font-family: "SN Pro", sans-serif;
+  color: white;
+  /*Alinhamento*/
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /*Tamanho do cabeçalho*/
+  height: 50px;
+  background-color: #7b3333;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer {
+  /* Fonte */
+  font-family: "SN Pro", sans-serif;
+  /*Alinhamento*/
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  background-color: brown;
+}
+
+.rodape {
+  /* Fonte */
+  color: white;
+  /*Alinhamento*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
