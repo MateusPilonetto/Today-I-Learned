@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+
+  {% extends '/baseExercicio/base.html' %}
+  {% block titulo %}
+    Home
+  {% endblock %}
+
+  <body>
+    {% block conteudo %}
+    <h1>Você está em uma pagina web</h1>
+    {% endblock %}
+  </body>
+</html>

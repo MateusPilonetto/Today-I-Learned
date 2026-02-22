@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <title>{% block titulo %} {% endblock %}</title>
+  </head>
+  <body>
+    <header>
+      <ul class="lista">
+        <li><a href="/contato">CONTATO</a></li>
+        <li><a href="/home">HOME</a></li>
+        <li><a href="/sobre">SOBRE</a></li>
+      </ul>
+    </header>
+    {% block conteudo %} {% endblock %}
+  </body>
+</html>
