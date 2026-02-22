@@ -25,7 +25,7 @@ Here is how I organize my studies:
 I am currently focusing on:
 
 - [x] Python Fundamentals (Logic & Syntax)
-- [ ] Web Development (Instituto 3C Course)
+- [x] Web Development (Instituto 3C Course)
 - [ ] Data Structures & Algorithms
 - [ ] Scientific Computing (Future goal)
 
