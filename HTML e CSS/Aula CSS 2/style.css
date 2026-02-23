@@ -1,0 +1,235 @@
+html {
+  font-family: "SN Pro", sans-serif;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.navbar {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+a:hover {
+  color: lightcoral;
+  transition: color 0.3s;
+}
+
+.form {
+  background-color: lightslategray;
+  width: 15vw;
+  height: 15vh;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+input {
+  margin: 05px;
+  height: 25px;
+  border-radius: 8px;
+}
+
+input:focus {
+  border-color: lightgreen;
+  outline: none;
+}
+
+#submit:focus-visible {
+  border-color: lightskyblue;
+  outline: none;
+}
+
+#submit {
+  width: 10vw;
+  height: 4vh;
+  border-radius: 8px;
+}
+
+#submit:hover {
+  background-color: lightsteelblue;
+  transition: background 0.3s ease;
+  transform: scale(1.05);
+  transform: rotate(2deg);
+}
+
+.lista {
+  background-color: lightseagreen;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li:first-child {
+  font-weight: bolder;
+}
+
+li:last-child {
+  color: brown;
+}
+
+.box1 {
+  background-color: lightpink;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.box1:hover {
+  transition: background 0.4s ease;
+  background-color: blueviolet;
+}
+
+@keyframes baixo {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes direita {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.box2 {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  margin-left: 60px;
+}
+
+.box2:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: darkcyan;
+  opacity: 0.7;
+  transform: scale(1.8);
+}
+
+.box3 {
+  background-color: lightsteelblue;
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  animation: baixo 400ms ease-out 100ms infinite normal forwards;
+}
+
+.box3:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: darkslateblue;
+  opacity: 0.7;
+  transform: scale(1.8);
+}
+
+.box4 {
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+  margin-left: 140px;
+  animation: direita 400ms ease-out 100ms infinite normal forwards;
+}
+
+.box4:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: darkslateblue;
+  opacity: 0.7;
+}
+
+.box5 {
+  background-color: lightyellow;
+  width: 100px;
+  height: 100px;
+  margin-left: 180px;
+}
+
+.box5:hover {
+  transition: all 0.3s ease;
+  background-color: darkgoldenrod;
+  opacity: 0.7;
+}
+
+.box6 {
+  background-color: lightyellow;
+  width: 100px;
+  height: 100px;
+  margin-left: 220px;
+}
+
+.box6:hover {
+  transition: all 0.3s linear;
+  background-color: darkgoldenrod;
+  opacity: 0.7; 
+}
+
+.box7 {
+  background-color: lightyellow;
+  width: 100px;
+  height: 100px;
+  margin-left: 260px;
+}
+
+#box7:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: darkgoldenrod;
+  opacity: 0.7;
+  transform: scale(1.8);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.box8 {
+  background-color: lightyellow;
+  width: 100px;
+  height: 100px;
+  margin-left: 300px;
+  animation: fadeUp 0.5s ease-out 0.1s infinite forwards;
+}
