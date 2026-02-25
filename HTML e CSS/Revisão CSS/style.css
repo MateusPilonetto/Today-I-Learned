@@ -1,0 +1,44 @@
+* {
+  font-family: "SN Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #262b33;
+}
+
+#title {
+  color: rgb(55, 138, 253);
+}
+
+#principal {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: normal;
+}
+section {
+  width: 75vw;
+}
+
+.destaque {
+  line-height: 1.8;
+  color: red;
+  font-weight: bolder;
+}
+
+.texto {
+  color: hsl(99, 61%, 46%);
+}
+
+.fundo {
+  background-color: rgb(255, 243, 109);
+  padding: 8px;
+  border-radius: 15px;
+}
