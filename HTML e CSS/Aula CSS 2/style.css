@@ -151,7 +151,7 @@ li:last-child {
   width: 100px;
   height: 100px;
   margin-left: 100px;
-  animation: baixo 400ms ease-out 100ms infinite normal forwards;
+  animation: baixo 400ms linear 100ms infinite normal forwards;
 }
 
 .box3:hover {
@@ -198,7 +198,7 @@ li:last-child {
 .box6:hover {
   transition: all 0.3s linear;
   background-color: darkgoldenrod;
-  opacity: 0.7; 
+  opacity: 0.7;
 }
 
 .box7 {
@@ -218,7 +218,7 @@ li:last-child {
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(16px); 
+    transform: translateY(16px);
   }
   to {
     opacity: 1;

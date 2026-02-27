@@ -1,0 +1,133 @@
+* {
+  font-family: "SN Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "wght" 800,
+    "GRAD" 0,
+    "opsz" 44;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  display: flex;
+  gap: 05vw;
+}
+
+.caixas {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container {
+  display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box13,
+.box14,
+.box15,
+.box16 {
+  width: 100px;
+  height: 100px;
+}
+
+.box1,
+.box15 {
+  background-color: lightblue;
+}
+
+.box2 {
+  background-color: lightcoral;
+}
+
+.box3 {
+  background-color: lightslategray;
+}
+
+.box4,
+.box13 {
+  background-color: brown;
+}
+
+.box5 {
+  background-color: chocolate;
+}
+
+.box6,
+.box14 {
+  background-color: violet;
+}
+
+.box7,
+.box16 {
+  background-color: tomato;
+}
+
+.box8 {
+  background-color: aqua;
+}
+
+.box9 {
+  background-color: black;
+  width: 100px;
+  height: 200px;
+}
+
+.box10 {
+  background-color: brown;
+  width: 100px;
+  height: 300px;
+}
+
+.box11 {
+  background-color: darksalmon;
+  width: 100px;
+  height: 150px;
+}
+
+.box12 {
+  background-color: thistle;
+  width: 100px;
+  height: 250px;
+  align-self: flex-end;
+}
+
+.container3 {
+  display: flex;
+  align-items: baseline;
+}
+
+.secao2 {
+  display: flex;
+}

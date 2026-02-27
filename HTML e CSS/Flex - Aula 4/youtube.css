@@ -1,0 +1,218 @@
+* {
+  font-family: "SN Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cabeçalho {
+  display: flex;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  width: 100vw;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+#yt {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 05vw;
+  height: 100vh;
+  gap: 30px;
+  position: fixed;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.home,
+.inscricoes,
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 10,
+    "opsz" 48;
+}
+
+.textNav {
+  font-size: 12px;
+}
+
+#principal {
+  font-family: "SN Pro", sans-serif;
+  padding-left: 0;
+  margin-left: -25px;
+}
+
+#pesquisa {
+  height: 40px;
+  width: 450px;
+
+  border: none;
+}
+
+#submit {
+  width: 60px;
+  height: 42px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+}
+
+#pesquisa:focus {
+  outline: none;
+  border-color: rgb(0, 132, 255);
+}
+
+#pesquisa::placeholder {
+  font-size: 500px;
+  padding-left: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+#pesquisa::-webkit-search-cancel-button {
+  fill: black;
+  cursor: pointer;
+}
+
+#barra {
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#iconS {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mic {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.form {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 41px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(0, 128, 255);
+  padding: 6px;
+  border-radius: 20px;
+  margin-top: 8px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+#textLogin {
+  color: rgb(0, 128, 255);
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+#more {
+  margin-top: 15px;
+  margin-right: -15vw;
+}
+
+main {
+  margin-left: 80px;
+}
+
+.categorias {
+  display: flex;
+  gap: 25px;
+  border: 10px;
+}
+
+.navItens {
+  background-color: rgb(235, 235, 235);
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.grade {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+  margin: 20px;
+  height: 1000px;
+}
+
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6,
+.video7,
+.video8,
+.video9 {
+  width: 420px;
+  height: 230px;
+  background-color: gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.desc {
+  margin-top: -30px;
+  width: 350px;
+  margin-left: 10px;
+}
+
+.descGeral {
+  display: flex;
+}
+
+.canal {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  border-radius: 30px;
+  margin-top: -30px;
+}
