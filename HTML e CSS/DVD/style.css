@@ -25,6 +25,8 @@ body {
   height: 260px;
   margin-top: -20px;
   animation: mover 5000ms linear infinite normal forwards;
+  animation-name: mover, cor;
+  animation-duration: 5000ms, 5000ms;
 }
 
 @keyframes mover {
@@ -43,5 +45,20 @@ body {
   }
   100% {
     transform: translate(0, 0);
+  }
+}
+
+@keyframes cor {
+  0% {
+    content: url(DVD_green.svg);
+  }
+  45% {
+    content: url(DVD_ciano.svg);
+  }
+  50% {
+    content: url(DVD_purple.svg);
+  }
+  100% {
+    content: url(DVD_vermelho.svg);
   }
 }
