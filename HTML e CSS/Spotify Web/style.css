@@ -434,12 +434,84 @@ main {
   overflow-y: scroll;
 }
 
+.musics::-webkit-scrollbar {
+  background: transparent;
+}
+
 .emAlta {
   margin-left: 30px;
   margin-top: 30px;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.emAlta::-webkit-scrollbar {
+  background: transparent;
+  color: #b3b3b3;
 }
 
 #emAltaT {
   font-family: metropolisSemiBold;
   margin: 10px;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.capa {
+  width: 170px;
+  height: 170px;
+  background-color: gray;
+  border-radius: 8px;
+}
+
+.tituloM {
+  font-family: metropolis2;
+  font-size: 16px;
+  padding-top: 10px;
+  line-height: 1.3;
+}
+
+.nomeC {
+  font-family: metropolis2;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.cardM a {
+  text-decoration: none;
+}
+
+.cardM {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.artistas {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.artistas::-webkit-scrollbar {
+  background: transparent;
+}
+
+.capaA {
+  width: 170px;
+  height: 170px;
+  background-color: gray;
+  border-radius: 100%;
+}
+
+.cardA {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cardA a {
+  text-decoration: none;
 }
