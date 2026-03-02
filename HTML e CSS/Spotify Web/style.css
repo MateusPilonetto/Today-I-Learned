@@ -2,12 +2,12 @@
   border: 0;
   margin: 0;
   padding: 0;
-
   color: white;
 }
 
 html {
   background-color: black;
+  overflow: hidden;
 }
 
 @font-face {
@@ -375,4 +375,71 @@ aside {
 .criarP:hover,
 .criarPd:hover {
   transform: scale(1.1);
+}
+
+.inscrever {
+  box-sizing: border-box;
+  width: 99%;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  border-radius: 10px;
+  background: linear-gradient(145deg, rgb(250, 0, 167), rgb(0, 191, 255));
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  outline: none;
+}
+
+.testar {
+  font-family: metropolisSemiBold;
+}
+
+.testarT {
+  font-family: metropolis2;
+}
+
+.botaoI {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: metropolisSemiBold;
+}
+
+.botaoI:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgb(212, 212, 212);
+}
+
+main {
+  display: flex;
+}
+
+.musics {
+  background: linear-gradient(135deg, rgb(36, 36, 36), rgb(27, 27, 27));
+  width: 70vw;
+  margin: 8px;
+  border-radius: 10px;
+  height: 79.5vh;
+  overflow-y: scroll;
+}
+
+.emAlta {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#emAltaT {
+  font-family: metropolisSemiBold;
+  margin: 10px;
 }
