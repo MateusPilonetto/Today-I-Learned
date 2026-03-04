@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   color: white;
+  font-family: metropolis2;
 }
 
 html {
@@ -12,7 +13,7 @@ html {
 
 @font-face {
   font-family: metropolis;
-  src: url(metropolis.regular.otf);
+  src: url(metropolis-latin-400-normal.woff);
 }
 
 @font-face {
@@ -95,7 +96,7 @@ header {
 }
 
 #pesquisa::placeholder {
-  font-family: metropolis;
+  font-family: metropolis2;
   font-size: 15px;
   color: #c4c3c3;
 }
@@ -223,7 +224,7 @@ aside {
 #title {
   background-color: rgb(22, 22, 22);
   border-radius: 10px;
-  font-family: metropolis;
+  font-family: metropolis2;
   font-size: 16px;
   width: 130px;
 }
@@ -263,7 +264,7 @@ aside {
 }
 
 #textP2 {
-  font-family: metropolis;
+  font-family: metropolis2;
   font-size: 13px;
 }
 
@@ -458,6 +459,11 @@ main {
   padding-top: 25px;
 }
 
+#emAltaT:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .capa {
   width: 170px;
   height: 170px;
@@ -486,6 +492,7 @@ main {
 .cardM {
   margin-left: 10px;
   margin-right: 10px;
+  gap: 20px;
 }
 
 .artistas {
@@ -514,4 +521,72 @@ main {
 
 .cardA a {
   text-decoration: none;
+}
+
+.detalhes {
+  display: flex;
+  gap: 80px;
+}
+
+.empresas,
+.comunidades,
+.links,
+.planos {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.empresas {
+  margin-left: 10px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+span {
+  font-family: metropolis;
+  padding-top: 14px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+hr {
+  border: none;
+  background-color: rgb(81, 81, 81);
+  height: 1px;
+  width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+#direitos {
+  margin-left: 30px;
+}
+
+#play {
+  background-color: rgb(99, 217, 81);
+  margin-top: 100px;
+  position: absolute;
+  z-index: 1;
+  padding: 15px;
+  margin-left: 100px;
+  border-radius: 100%;
+  display: none;
+}
+
+.cardM:hover #play {
+  background-color: #b3b3b3;
+  padding: 10px;
+  display: flex;
+}
+.detalhes a {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+.detalhes a:hover {
+  text-decoration: underline;
 }

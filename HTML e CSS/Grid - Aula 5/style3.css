@@ -1,0 +1,26 @@
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: menu;
+}
+
+.content {
+  grid-area: content;
+}
+
+footer {
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+
+  grid-template-columns: 200px 1fr;
+  border: 2px solid black;
+}

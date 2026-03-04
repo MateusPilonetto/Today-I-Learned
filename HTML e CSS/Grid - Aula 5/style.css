@@ -1,0 +1,12 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 50px;
+  gap: 10px;
+}
+
+.item1,
+.item2,
+.item3 {
+  border: 2px solid black;
+}
