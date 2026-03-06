@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="tarefas.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Minhas Tarefas</h2>
+
+      <div class="controles">
+        <input
+          type="text"
+          id="input-tarefa"
+          placeholder="Digite uma nova tarefa..."
+        />
+        <button id="btn-adicionar">Adicionar</button>
+      </div>
+
+      <p class="dica">💡 Dica: Dê dois cliques em uma tarefa para apagá-la.</p>
+
+      <ul id="lista-tarefas"></ul>
+    </div>
+
+    <script src="tarefas.js"></script>
+  </body>
+</html>

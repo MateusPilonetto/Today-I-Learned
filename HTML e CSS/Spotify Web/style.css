@@ -493,6 +493,7 @@ main {
   margin-left: 10px;
   margin-right: 10px;
   gap: 20px;
+  position: relative;
 }
 
 .artistas {
@@ -517,6 +518,7 @@ main {
 .cardA {
   margin-left: 10px;
   margin-right: 10px;
+  position: relative;
 }
 
 .cardA a {
@@ -578,10 +580,17 @@ hr {
 }
 
 .cardM:hover #play {
-  background-color: #b3b3b3;
+  background-color: #2fff00;
   padding: 10px;
   display: flex;
 }
+
+.cardA:hover #play {
+  background-color: #2fff00;
+  padding: 10px;
+  display: flex;
+}
+
 .detalhes a {
   text-decoration: none;
   color: #b3b3b3;
