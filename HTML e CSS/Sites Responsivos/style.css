@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 600px) {
+  header {
+    background-color: lightpink;
+    text-align: center;
+  }
+
+  .texto {
+    font-size: 12px;
+    padding: 4%;
+    text-align: center;
+  }
+
+  .imagem {
+    width: 100vw;
+  }
+}
