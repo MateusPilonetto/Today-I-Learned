@@ -16,7 +16,7 @@ a {
 }
 
 body {
-  background-image: url(panorama.jpg);
+  background-image: url(panorama.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -28,13 +28,14 @@ body {
     "navbar navbar"
     "menu menu"
     "footer footer";
-  grid-template-rows: 50px 70px 100px 100px;
+  grid-template-rows: 60px 75px 65px 500px;
 }
 
 header {
   grid-area: header;
+  width: 100vw;
   background-color: lightgrey;
-  height: 50px;
+  height: 60px;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -43,6 +44,10 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 3px solid rgb(182, 174, 174);
+}
+
+header h1 {
+  margin-top: 15px;
 }
 
 .barra {
@@ -62,7 +67,7 @@ header {
 .navbar {
   grid-area: navbar;
   display: flex;
-  width: 98%;
+  width: 97%;
   height: 50px;
   justify-content: center;
 
@@ -126,4 +131,96 @@ header {
   border: 3px solid rgb(0, 170, 0);
   border-bottom: 2px solid rgb(0, 100, 0);
   color: white;
+}
+
+.mundosC {
+  grid-area: footer;
+  margin-right: 3vw;
+  display: grid;
+}
+
+.tumb {
+  padding: 0 15px;
+}
+
+#imagemM {
+  border: 3px solid black;
+}
+
+.meuMundo {
+  display: grid;
+
+  grid-template-columns: auto 1fr 100px;
+  align-items: center;
+
+  background-color: #3e3e3e;
+  width: 98vw;
+  height: 120px;
+  margin-left: 13px;
+  border-top: 2px solid #4e4e50;
+  border-left: 2px solid #4e4e50;
+  border-bottom: 2px solid #1e1e1e;
+  border-right: 2px solid #1e1e1e;
+}
+
+.editar {
+  width: 10vw;
+  height: 16vh;
+  color: white;
+  background-color: #3e3e3e;
+  border-top: 1px solid #4e4e50;
+  border-left: 1px solid #4e4e50;
+  border-bottom: 1px solid #1e1e1e;
+  border-right: 1px solid #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-row: -1;
+  grid-column: -1;
+}
+
+.editar {
+  background-color: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  border-left: 2px solid #1e1e1e;
+}
+
+.editar img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.desc {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#fundoA {
+  background-color: yellow;
+  color: black;
+  padding: 3px;
+}
+
+#fundoG {
+  background-color: #2a2a2a;
+  padding: 3px;
+}
+
+.infos {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 10px;
 }
